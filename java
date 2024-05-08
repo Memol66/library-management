@@ -1,18 +1,15 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
 class Book {
     String title;
     String author;
     int year;
-
     Book(String title, String author, int year) {
         this.title = title;
         this.author = author;
         this.year = year;
     }
 }
-
 class Library {
     private ArrayList<Book> books;
 
@@ -48,7 +45,6 @@ class Library {
         }
         System.out.println("Book not found!");
     }
-
     void displayBooks() {
         if (books.isEmpty()) {
             System.out.println("No books in the library.");
@@ -60,7 +56,6 @@ class Library {
         }
     }
 }
-
 public class Main {
     public static void main(String[] args) {
         Library library = new Library();
