@@ -23,7 +23,7 @@ class Library {
     }
 
     void removeBook(String title) {
-        for (int i = 0; i < books.size(); i++) {
+        for (int i = 00; i < books.size(); i++) {
             if (books.get(i).title.equalsIgnoreCase(title)) {
                 books.remove(i);
                 System.out.println("Book removed successfully!");
