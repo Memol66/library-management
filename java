@@ -1,4 +1,4 @@
-//00000000000000000
+// 01
 import java.util.ArrayList;
 import java.util.Scanner;
 class Book {
